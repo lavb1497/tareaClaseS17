@@ -1,0 +1,18 @@
+<div class="container m-4 mx-auto">
+  <div class="row g-0 bg-light pt-3">
+    <div class="col-12 mb-md-0 p-md-4 d-flex justify-content-start mb-2">
+      <a class="mx-auto" [routerLink]="['mision']" style="text-decoration: none; color: black;"> <h5>Misión</h5></a>
+      <a class="mx-auto" [routerLink]="['vision']" style="text-decoration: none; color: black;"> <h5>Visión</h5></a>
+    </div>
+  </div>
+  <div class="row g-0 bg-light pt-3">
+    <div class="col-4 mb-md-0 p-md-4 d-flex justify-content-start mb-2">
+      <a class="mx-auto">
+        <img class="mt-4" src="https://img.icons8.com/ios/50/000000/box--v1.png"/>
+      </a>
+    </div>
+    <div class="col-8 mb-md-0 p-md-4 d-flex justify-content-start mb-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
